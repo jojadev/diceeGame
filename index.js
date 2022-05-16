@@ -12,13 +12,13 @@ dice2.setAttribute("src", `images/dice${randomnumber2}.png`);
 var results = document.getElementById("results-banner");
 
 if (randomnumber1 > randomnumber2) {
-  results.innerHTML = "Player 1 Wins!!";
+  results.innerHTML = "Player 1 <br> Wins!";
 }
 
 if (randomnumber1 < randomnumber2) {
-  results.innerHTML = "Player 2 Wins!!";
+  results.innerHTML = "Player 2 <br> Wins!";
 }
 
 if (randomnumber1 === randomnumber2) {
-  results.innerHTML = "Draw Game!!";
+  results.innerHTML = "Draw <br> Game!";
 }
